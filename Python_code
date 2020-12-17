@@ -4,3 +4,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+house_ds = pd.read_csv("../input/house-prices-advanced-regression-techniques/train.csv", sep=",")
+house_ds
